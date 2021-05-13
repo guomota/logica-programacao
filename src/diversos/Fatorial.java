@@ -34,9 +34,9 @@ public class Fatorial {
 	 * 
 	 * @return {@ int} - fatorial 
 	 */
-	private static int calculaFatorial(int num) {
+	private static Long calculaFatorial(int num) {
 		
-		int fatorial = 1;
+		Long fatorial = 1L;
 
 		for(;num > 1; num--) {
 			fatorial *= num;
